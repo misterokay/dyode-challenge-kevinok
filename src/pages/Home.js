@@ -2,6 +2,7 @@ import React from 'react';
 import ImageTextCarousel from '../sections/ImageTextCarousel';
 import FeaturedProducts from '../sections/FeaturedProducts';
 import FeaturedCollections from '../sections/FeaturedCollections';
+import NewsletterSignup from '../sections/NewsletterSignup';
 import { heroCarousel, productsCarousel, favoriteTeesCarousel } from '../data';
 
 class Home extends React.Component {
@@ -12,6 +13,7 @@ class Home extends React.Component {
                 <FeaturedCollections />
                 <FeaturedProducts productsCarousel={productsCarousel} />
                 <ImageTextCarousel carouselData={favoriteTeesCarousel} />
+                <NewsletterSignup />
             </div>
         );
     }
