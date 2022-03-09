@@ -315,6 +315,84 @@ a, a:visited, a:hover, a:active {
   right: 0;
 }
 
+.NewsletterSignupSection {
+  background: #10504F;
+  padding: 14px 26px 25px;
+  color: white;
+}
+
+.NewsletterSignupSection .newsletter-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewsletterSignupSection .newsletter-heading {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Pacifico';
+  font-weight: normal;
+  margin-bottom: 11px;
+}
+
+.NewsletterSignupSection .newsletter-heading img {
+  width: 29px;
+  margin-right: 5px;
+}
+
+.NewsletterSignupSection .form-content p {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 0 auto 12px;
+}
+
+.NewsletterSignupSection .form-pre-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewsletterSignupSection .email-field {
+  padding: 15px 17px 13px;
+  color: black;
+  border: none;
+  width: 70%;
+  margin-bottom: 12px;
+}
+
+.NewsletterSignupSection .email-field:focus {
+  outline: none;
+}
+
+.NewsletterSignupSection .email-field::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C6C6C6;
+  opacity: 1; /* Firefox */
+  font-family: 'Lato';
+}
+
+.NewsletterSignupSection .email-field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #C6C6C6;
+  font-family: 'Lato';
+}
+
+.NewsletterSignupSection .email-field::-ms-input-placeholder { /* Microsoft Edge */
+  color: #C6C6C6;
+  font-family: 'Lato';
+}
+
+.NewsletterSignupSection .submit-button {
+  font-family: 'Lato';
+  padding: 12px 28px 13px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
 /* resp */
 @media only screen and (min-width: 769px) {
   .mobile-only {
@@ -492,5 +570,51 @@ a, a:visited, a:hover, a:active {
 
   .FeaturedProductsSection .react-multiple-carousel__arrow--right {
     right: 28px;
+  }
+
+  .NewsletterSignupSection {
+    padding: 75px 48px 102px;
+  }
+
+  .NewsletterSignupSection .newsletter-heading {
+    font-size: 40px;
+    line-height: 70px;
+    margin-bottom: 26px;
+  }
+
+  .NewsletterSignupSection .newsletter-heading img {
+    width: auto;
+    margin-right: 7px;
+  }
+
+  .NewsletterSignupSection .form-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .NewsletterSignupSection .form-content p {
+    margin: 0 45px 0 0;
+    flex: 0 1 657px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .NewsletterSignupSection .form-pre-submit {
+    flex-direction: row;
+    flex: 0 1 643px;
+  }
+
+  .NewsletterSignupSection .email-field {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 26px;
+    margin-right: 13px;
+  }
+
+  .NewsletterSignupSection .submit-button {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 18px 26px 17px;
   }
 }
