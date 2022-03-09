@@ -107,49 +107,57 @@ export const productsCarousel = {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         },
         {
             imgUrl: productImage,
             title: "Product Title",
             subheading: "WOMEN’S T-SHIRT",
-            price: 19.99
+            price: 19.99,
+            productUrl: "#"
         }
     ]
 }

@@ -37,7 +37,7 @@ class FeaturedProducts extends React.Component {
                 >
                     {this.props.productsCarousel.carouselItems.map((item, index) => {
                         return (
-                            <div key={index} className="carousel-slide">
+                            <a href={item.productUrl} key={index} className="carousel-slide">
                                 <img
                                     src={item.imgUrl}
                                     alt={item.title}
@@ -52,7 +52,7 @@ class FeaturedProducts extends React.Component {
                                         />
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         );
                     })}
                 </Carousel>

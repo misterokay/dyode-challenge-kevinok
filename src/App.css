@@ -247,6 +247,7 @@ a, a:visited, a:hover, a:active {
 
 .FeaturedProductsSection .carousel-slide {
   margin: 0 5px;
+  text-decoration: none;
 }
 
 .FeaturedProductsSection .carousel-slide img {
