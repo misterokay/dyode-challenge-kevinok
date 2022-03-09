@@ -8,9 +8,10 @@ class FeaturedCollections extends React.Component {
                 <div className="collections-container">
                     {featuredCollections.map((item, index) => {
                         return (
-                            <div 
+                            <a 
                                 key={index} 
                                 className={index === 2 ? 'collection-card mobile-full-width' : 'collection-card'}
+                                href={item.linkPath}
                             >
                                 {item.mobileImgUrl ?
                                     <>
@@ -21,7 +22,7 @@ class FeaturedCollections extends React.Component {
                                     <img className="collection-image" src={item.imgUrl} />
                                 }
                                 <a href={item.linkPath} className="collection-link">{item.title}</a>
-                            </div>
+                            </a>
                         );
                     })}
                 </div>
