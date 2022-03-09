@@ -1,5 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
+import 'react-slidedown/lib/slidedown.css';
 import './App.css';
 
 import { Routes, Route } from 'react-router-dom';
