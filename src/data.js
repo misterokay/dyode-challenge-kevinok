@@ -8,6 +8,9 @@ import accessoriesImg from './images/accessories-img.png';
 import accessoriesImgMobile from './images/accessories-img-mobile.png';
 import productImage from './images/product-image.png';
 import ourFavoriteTees from './images/our-favorite-tees.png';
+import facebookIcon from './images/facebook-icon.svg';
+import twitterIcon from './images/twitter-icon.svg';
+import instagramIcon from './images/instagram-icon.svg';
 
 export const mainNav = [
     {
@@ -164,3 +167,75 @@ export const favoriteTeesCarousel = [
         contentPosition: "top-right"
     }
 ]
+
+export const footerData = {
+    linkLists: [
+        {
+            linkListTitle: "Customer Service",
+            links: [
+                {
+                    linkTitle: "Accessibility",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Contact Us",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Return Policy",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "FAQ",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Gift Certificates",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Wishlist",
+                    linkUrl: "#"
+                }
+            ]
+        },
+        {
+            linkListTitle: "Company",
+            links: [
+                {
+                    linkTitle: "About Us",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Careers",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Press",
+                    linkUrl: "#"
+                },
+                {
+                    linkTitle: "Affiliates",
+                    linkUrl: "#"
+                }
+            ]
+        }
+    ],
+    socialLinks: {
+        socialLinksTitle: "Follow Us",
+        socialLinks: [
+            {
+                linkIcon: facebookIcon,
+                linkUrl: "#"
+            },
+            {
+                linkIcon: instagramIcon,
+                linkUrl: "#"
+            },
+            {
+                linkIcon: twitterIcon,
+                linkUrl: "#"
+            }
+        ]
+    }
+}
